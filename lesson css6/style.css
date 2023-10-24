@@ -1,0 +1,42 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px;
+    align-items: center;
+    padding: 0 10%;
+ }
+ 
+ header nav ul{
+    grid-template-columns: repeat(4, 1fr);
+    text-decoration: none;
+    color: black;
+    display: grid;
+    justify-items: space-between;
+ }
+ a{
+    width: 200px;
+    text-decoration: none;
+    color: black;
+ }
+ .location{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    justify-self: end;
+    align-items: center;
+ }
+.logo{
+    font-weight: bold;
+}
+.location2{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    justify-self: end;
+    align-items: center;
+ }
